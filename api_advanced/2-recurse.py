@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Recursively queries Reddit API and returns all hot article titles."""
+"""Recursively queries Reddit API and returns jhball hot article titles."""
 import requests
  
  
