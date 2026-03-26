@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Recursively queries Reddit API and returns jhball hot article titles."""
 import requests
- 
- 
+
+
 def recurse(subreddit, hot_list=[], after=None):
     """Recursively get all hot post titles for a subreddit."""
     url = "https://www.reddit.com/r/{}/hot.json?limit=100".format(subreddit)
